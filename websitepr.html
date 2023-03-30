@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chivo:wght@100&display=swap" rel="stylesheet">
+<style>
+body {
+  margin: 0;
+	padding: 0;
+	min-height: 100vh;
+	background-color: #F1E0C5;
+  
+}
+
+#hero  {
+   background-image: url("https://www.natureserve.org/sites/default/files/window_cave.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #F24333;
+	text-shadow: 5px 5px black;
+	font-family: 'Shrikhand', cursive;
+	margin: 0;
+	padding-bottom: 0px;
+	font-size: 85px;
+	
+}
+
+
+#about{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	Background-color: #12263A;
+  color: #F1E0C5;
+	text-shadow: 5px 5px black;
+	font-family: 'Shrikhand', cursive;
+  height: 200px;
+	padding-bottom: 40px;
+	padding-top: 40px;
+	
+}
+
+.titulo {
+	padding-top: 40px;
+	font-size: 40px;
+	
+}
+
+.def {
+font-family: 'Chivo', sans-serif;		
+font-size: 25px;
+width: 1000px;
+
+}
+
+.Beaches-title{
+	font-family: 'Shrikhand', cursive;
+	text-align: center;
+  color: #F1E0C5;
+	text-shadow: 5px 5px black;
+	font-size: 80px;
+	color: #F24333;
+	
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+    margin: 0 auto;
+    max-width: 1000px;
+	background-color: #F1E0C5
+}
+
+.gallery-photo {
+    width: calc(33.33% - 1rem);
+    height: auto;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+		border-radius: 15px;
+	  
+}
+
+.gallery-photo:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 768px) {
+    .gallery-photo {
+        width: calc(50% - 1rem);
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery-photo {
+        width: 100%;
+    }
+}
+
+.content-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+    margin: 0 auto;
+    max-width: 1000px;
+    background-color: white;
+		border-radius: 15px; 
+		
+}
+
+.content-image {
+    width: 50%;
+    height: auto;
+		border-radius: 15px;
+}
+
+.content-text {
+    width: 50%;
+    padding: 1rem;
+}
+
+.content-title {
+	font-size: 1.5rem;
+	margin-bottom: 0.5rem;
+	font-family: 'Shrikhand', cursive;
+	color: #439A86;
+	text-shadow: 5px 5px black;
+	font-size: 50px;
+}
+
+.content-description {
+	font-size: 1rem;
+	line-height: 1.5;
+	font-family: 'Chivo', sans-serif;		
+	font-size: 25px;
+}
+
+@media (max-width: 768px) {
+    .content-image {
+        width: 100%;
+				
+    }
+
+    .content-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .content-container {
+        flex-direction: column;
+				
+    }
+}
+
+.footer {
+    
+    color: #6C8EAD;
+    padding: 1rem;
+    text-align: center;
+    margin-top: auto;
+		background-color: #F1E0C5;
+		text-shadow: 1px 0px black;
+		font-size: 20px;
+}
+
+.footer a {
+    color: #6C8EAD;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+</style>
+
+  </head>
+
+  <body>
+
+    <div id="hero">
+        PUERTO RICO
+    </div>
+		
+		<div id="about">
+			
+					<div class="titulo">  THE ISLAND OF ENCHANTMENT </div>
+
+					<div class="def"> 
+							<p> Known as the "Island of Enchantment," Puerto Rico captivates visitors with its stunning natural beauty, rich history, and vibrant culture. From lush rainforests and pristine beaches to colorful colonial architecture and lively festivals, this tropical paradise offers an array of magical experiences that leave a lasting impression on tourists. </p>
+						</div>
+			
+		</div>
+		
+		<div class="Beaches-title"> Beautiful Landscapes </div>
+		
+		 <div class="gallery-container">
+        <img src="https://www.discoverpuertorico.com/sites/default/files/styles/square_image/public/2020-09/Culebra-63.jpg?h=2992ba0a&itok=TFlst_V9" alt="Photo 1" class="gallery-photo">
+        <img src="https://bloximages.newyork1.vip.townnews.com/elvocero.com/content/tncms/assets/v3/editorial/8/26/826de1d0-6cac-11ed-ba78-a7a20d7449b7/638099fd6150b.image.jpg?crop=1440%2C1080%2C240%2C0&resize=1440%2C1080&order=crop%2Cresize" alt="photo 2" class="gallery-photo">
+        <img src="https://www.discoverpuertorico.com/sites/default/files/listing_images/profile/9893/Playa-Santa-16_54380979-5056-A36A-089370AC69969FFD-543808a85056a36_543809d3-5056-a36a-08fcddb8d87201be.jpg" alt="Photo 3" class="gallery-photo">
+        <img src="https://images.theoutbound.com/contents/112922/assets/1496867138739?w=1200&h=630&fit=crop&dpr=1&q=60&s=6687c0cbe38b758adefe4db7a7412821" alt="Photo 4" class="gallery-photo">
+        <img src="https://fh-sites.imgix.net/sites/3138/2022/06/15133442/la-parguera-bioluminescent-bay.jpg?auto=compress%2Cformat&w=1000&h=1000&fit=max" alt="Photo 5" class="gallery-photo">
+    </div>
+
+ <div class="content-container">
+        <img src="https://www.billboard.com/wp-content/uploads/media/puerto-rico-flag-2019-billboard-1548.jpg" alt="Example Image" class="content-image">
+        <div class="content-text">
+            <h2 class="content-title">The Culture</h2>
+            <p class="content-description">
+                Puerto Rican culture, a captivating blend of Taino, Spanish, and African influences, infuses the island with a vibrant atmosphere. From lively music and dance to mouthwatering cuisine, our heritage offers a unique and unforgettable experience that shapes every aspect of life in our hometown.
+            </p>
+        </div>
+    </div>
+    
+		 <footer class="footer">
+        <p> This is a project made by Steven Santos</p>
+        
+    </footer>
+  </body>
+</html>
